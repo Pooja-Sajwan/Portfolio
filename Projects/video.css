@@ -1,0 +1,52 @@
+body {
+   background-color: hotpink;
+    /* height: fit-content;
+    overflow-y:hidden; */ 
+}
+#vid{
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    background-color: #000000cd;
+    text-align: center;
+    margin-top: 3%;
+}
+.fa-pause{
+    display: none;
+}
+#min_screen{
+    display: none;
+}
+section{
+    background-color: #000000cd;
+    
+    margin-top: 3%;
+    /* padding: 3.37rem 0rem; */
+    text-align: center;
+}
+
+#vidi{
+    width: 100%;
+    border-radius: 10px;
+    height: 24rem;
+}
+main{
+    display: flex;
+    gap: 33%;
+    color: #0075ff;
+}
+#icons{
+    display: flex;
+    gap: 50%;
+    margin-left: 23%;
+    margin-top: 1%;
+}
+#icons1{
+    display: flex;
+    gap: 20%;
+    margin-top: 1%;
+}
+i{
+    font-size: 2.5rem;
+}
+

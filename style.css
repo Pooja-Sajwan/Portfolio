@@ -1,0 +1,1055 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Shippori Mincho", serif;
+}
+/* --------Home page css ---------- */
+header{
+    background-color: #d1caca;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    color: black;
+    position: sticky;
+    top: 0;
+    animation: header 2s ease forwards;
+}
+a{
+    text-decoration: none;
+}
+#name1 h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+#navbar{
+    width: 50%;
+}
+#links{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 5%;
+    padding-right: 2rem;
+}
+#links li {
+    list-style-type: none;
+}
+#links a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+#links a:hover{
+    color: #59ce72;
+}
+#name1 h2:hover{
+    color: #59ce72;
+}
+#intro{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6d9d2;
+    background-color: black;
+    
+}
+#me{
+    
+    padding-left: 4rem;
+    background-color: black;
+    
+}
+#me #me1{
+    padding-top: 12rem;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2%;
+    color: greenyellow;
+    
+}
+#me button{
+    font-size: 2rem;
+    width: 30%;
+    padding: 0.6rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 1.5rem;
+}
+#me #me2{
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+    line-height: 2rem;
+    padding-right: 5rem;
+    color: #d6d9d2;
+    animation: anime1 3s ease;
+}
+#intro div{
+    width: 50%;
+}
+#pic img{
+    width: 100%;
+    border-radius: 100%;
+    
+}
+
+
+#me button:hover{
+    background-color: greenyellow;
+}
+
+.skills{
+    background-color: whitesmoke;
+    height: 35rem;
+    padding: 3rem;
+}
+.fa-rectangle-terminal{
+    font-size: 1.8rem;
+    margin-right: 1%;
+}
+#head{
+    display: inline;
+    font-size: 1.5rem;
+    color: gold;
+}
+#head1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 2%;
+    text-shadow: 1px 1px 1px whitesmoke;
+}
+#head2{
+    font-size: 1.1rem;
+}
+#cards1{
+    display: none;
+    width: 60%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    box-shadow: 5px 5px 5px black;
+    
+}
+#cards2{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    row-gap: 20%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    
+}
+#cards2 .c1{
+    background-color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    border: 3px solid greenyellow;
+    padding: 1rem ;
+    box-shadow: 3px 3px 8px greenyellow;
+
+}
+#s2{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5%;
+    row-gap: 10%;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#s2 div{
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 4px 3px 5px black;
+
+}
+#s2 div h1{
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+.fa-pen-nib{
+    background-color: #e89980;
+    padding: 1.5rem 1.8rem;
+    
+}
+#d1{
+    border: 10px solid #e89980;
+}
+#d1 h1{
+    color: #e89980;
+
+    
+}
+.fa-paintbrush{
+    background-color: #e5cb95;
+    padding: 1.5rem 1.6rem;
+}
+#d2{
+    border: 10px solid #e5cb95;
+}
+#d2 h1{
+    color: #e5cb95;
+}
+.fa-user-chef{
+    background-color: #7fcdb8;
+    padding: 1.5rem 1.6rem;
+}
+#d3{
+    border: 10px solid #7fcdb8;
+}
+#d3 h1{
+    color: #7fcdb8;
+}
+
+.fa-guitar{
+    background-color: #9ac8e4;
+    padding: 1.5rem 1.4rem;
+}
+#d4{
+    border: 10px solid #9ac8e4;
+}
+#d4 h1{
+    color: #9ac8e4;
+}
+#icon7 i{
+    font-size: 2rem;
+    color: black;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+#icon7{
+    padding: 3rem 0;
+    background-color:rgb(243, 255, 205);
+    text-align: center;
+}
+#icon7 #hobby{
+    
+    font-size: 2rem;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 3%;
+    border: 5px solid white;
+    
+    background-color: white;
+}
+.c1 i{
+    font-size: 3rem;
+}
+.c1 h2{
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.c1 i{
+    color: greenyellow;
+}
+#cards2 .c1:hover{
+    background-color: greenyellow;
+    color: black;
+    transform: scale(1.1);
+}
+#cards2 .c1:hover i{
+    color: black;
+}
+footer{
+    background-color:rgb(44, 39, 39);
+    color: greenyellow;
+}
+
+footer div{
+    width: 90%;
+    margin: auto;
+    padding: 3rem;
+}
+#f1{
+    width: 70%;
+    text-align: center;
+    border-bottom: 2px solid greenyellow;
+}
+#f1 p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#f2{
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    padding-left: 5rem;
+    color: greenyellow;
+    
+}
+#f2 input::placeholder{
+    color: greenyellow;
+    font-size: 1rem;
+
+}
+#send h2{
+    padding-left: 5rem;
+    margin-bottom: 3%;
+}
+#f2 form input{
+    display: block;
+    width: 70%;
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: rgb(44, 39, 39);
+    color:#d6d9d2;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+} 
+#f2 form input:focus{
+    outline: none;
+}
+
+#f2 form textarea{
+    width: 70%;
+    background-color: rgb(44, 39, 39);
+    color:#d6d9d2;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    font-size: 1.5rem;
+    padding: 1rem 1rem 0rem 1rem;
+}
+#f2 textarea:focus{
+    outline: none;
+}
+#f2 textarea::placeholder{
+    color: greenyellow;
+    font-size: 1rem;
+}
+
+#f2 form button{
+    font-size: 1.5rem;
+    width: 40%;
+    padding: 0.4rem;
+    font-weight: 500;
+    margin-top: 5%;
+    border: none;
+    border: 1px solid greenyellow;
+    border-radius: 1.5rem;
+    background-color: black;
+    color: greenyellow;
+    margin-left: 10%;
+}
+#f2 form button:hover{
+    background-color: rgb(133, 182, 61);
+    color: black;
+}
+
+#mycontact h2{
+    margin-bottom: 4%;
+    font-weight: bold;
+    margin-left: 10%;
+    
+}
+
+#f2 span, i{
+    font-size: 1.3rem;
+}
+#f2 i{
+    margin-right: 2%;
+}
+
+#mycontact button{
+    display: block;
+    margin-top: 10%;
+    font-size: 1.5rem;
+    width: 60%;
+    padding: 0.4rem;
+    font-weight: 500;
+    border: 1px solid greenyellow;
+    border-radius: 1.5rem;
+    background-color: black;
+    color:greenyellow;
+}
+
+#mycontact button:hover{
+    background-color: rgb(133, 182, 61);
+    color: black;
+}
+
+#icons i{
+    font-size: 2rem;
+    color: greenyellow;
+    display: inline-block;
+    margin-right: 3%;
+    border-radius: 100%;
+    padding: 0.7rem 1rem; 
+    background-color: rgb(44, 39, 39);
+    border: 1px solid greenyellow;
+}
+#icons i:hover{
+    color: black;
+    background-color: greenyellow;
+
+}
+
+#f3{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* ----------About page css--------------- */
+.cardss{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cardss .content{
+    width: 40%;
+    display: none;
+}
+.content i{
+    margin-right: 3%;
+    color: crimson;
+    font-size: 2rem;
+}
+.cardss .image{
+    width: 50%;
+}
+.cardss img{
+    width: 100%;
+}
+.content h1{
+    font-size: 2rem;
+    display: inline;
+}
+.content p{
+    font-size: 1.5rem;
+    color: grey;
+}
+.image i{
+    display: none;
+    font-size: 10rem;
+    color: palevioletred;
+}
+.fa-building-columns{
+    margin-left: 40%;
+}
+.fa-building{
+    margin-left: 40%;
+}
+#out1{
+    background-image: url("./Images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 7%;
+    height: 35rem;
+}
+#card{
+    display: none;
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 8px black;
+    /* border-radius: 5%; */
+    padding: 2rem;
+    text-align: center;
+}
+#p1 #my{
+    font-size: 1.3rem;
+    color: palevioletred;
+}
+#p1 #self{
+    font-size: 1.5rem;
+}
+#p1 button{
+    display: block;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    margin-left: 35%;
+    width: 30%;
+    padding: 0.4rem;
+    font-weight: 500;
+    border: 1px solid palevioletred;
+    border-radius: 1.5rem;
+    color:palevioletred;
+    margin-bottom: 5%;
+}
+#p1 button:hover{
+    background-color: palevioletred;
+    color: antiquewhite;
+}
+#hr1{
+    margin-bottom: 3%;
+}
+#p2{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    text-align: left;    
+}
+
+.progress{
+    width: 80%;
+    margin: 3% 0;
+    border: 3px solid palegreen;
+    background-color: rgba(178, 240, 178,0.4);
+    border-radius: 1rem;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.percent{
+    
+    background-color: rgb(247, 129, 168);
+    height: 0.6rem;
+    border-radius: 1rem;
+}
+.per1{
+    width: 80%;
+}
+.per2{
+    width: 70%;
+}
+.per3{
+    width: 50%;
+}
+.per4{
+    width: 60%;
+}
+.ski{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+.ski p{
+    color: grey;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.skill{
+    
+    color: palevioletred;
+    font-size: 1.3rem;
+    font-weight: 900;
+
+}
+.content #educ{
+    margin-left: 100%;
+    margin-bottom: 15%;
+}
+.content #educ h1{
+    font-size: 3rem;
+    display: block;
+    color: palevioletred;
+  
+}
+.im1{
+    margin-top: 10%;
+}
+
+/* ----------contact page style -------------- */
+#connect{
+    background-image: url(./Images/bg3.svg);
+    background-color: rgba(175, 238, 238, 0.507);
+    padding: 1rem;
+}
+#outer{
+    width: 50%;
+    margin: auto;
+}
+#card1{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 217, 0, 0.52);
+    padding: 2rem;
+    animation: anime1 3s ease;
+}
+
+#card1 p{
+    margin-top: 2%;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#card1 img{
+    width: 85%;
+    
+}
+#connect{
+    text-align: center;
+}
+#more p{
+    font-size: 1.3rem;
+    margin-top: 3%;
+}
+#more span{
+    font-weight: 900;
+    color: palevioletred;
+}
+#form2{
+    margin-top: 5%;
+
+}
+#form2 input{
+    display: block;
+    width: 50%;
+    
+    padding: 0.5rem;
+    margin-top: 3%;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    border: none;
+    color: palevioletred;
+    animation: anime1 1s ease;
+}
+#form2 input:focus{
+    outline: none;
+}
+
+#form2 textarea{
+    display: block;
+    border: none;
+   margin-left: 20%;
+   margin-top: 3%;
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: palevioletred;
+    animation: anime1 3s ease;
+}
+#form2 textarea:focus{
+    outline: none;
+}
+#form2 input::placeholder{
+    color: #a19898;
+}
+
+#form2 textarea::placeholder{
+    color: #a19898;
+}
+
+#form2 button{
+    display: block;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    margin-left: 30%;
+    width: 30%;
+    padding: 0.4rem;
+    font-weight: 500;
+    border: 1px solid palevioletred;
+    border-radius: 1.5rem;
+    color:palevioletred;
+    animation: anime1 2s ease;
+    
+}
+#form2 span{
+    display: block;
+    width: 65%;
+    margin-left: 10%;
+}
+#form2 button:hover{
+    background-color: palevioletred;
+    color: antiquewhite;
+}
+/* -------------Portfolio page style------------------ */
+#gallery{
+    background-color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+#gallery h1{
+    font-size: 2rem;
+}
+#btn{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+#btn button{
+    padding: 0.7rem 1rem;
+    margin-right: 2%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: rgb(233, 233, 233);
+    color: grey;
+    font-weight: 600;
+}
+#btn #b1{
+    background-color: greenyellow;
+    color: black;
+}
+
+#btn button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+#display{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+    
+
+
+}
+#display div{
+    display: none;
+    background-color: black;
+    color: greenyellow;
+    padding: 2rem;
+    border: 5px solid greenyellow;
+    margin-bottom: 5%;
+}
+#display div img{
+    width: 100%;
+    /* border: 3px solid whitesmoke; */
+}
+#display div p{
+    font-size: 1.5rem;
+    
+    margin-top: 2%;
+}
+#form2 span{
+    color: crimson;
+    font-size: 1.5rem;
+}
+#display div:hover {
+    transform: scale(1.09)
+}
+#display a{
+    color: greenyellow;
+    text-decoration: none;
+}
+#bar{
+    display: none;
+}
+#mob_head{
+    display: none;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anime1 {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Mobile Version */
+@media(max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        background-size:190%;
+        background-position-x: center;
+        /* make center along x-axis */
+        
+    }
+    #bar{
+        width: 100%;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.456);
+        color: white;
+        padding: 10px 10px;
+        border-radius: 5px;
+        position: sticky;
+        top: 0;
+    }
+    #bar i{
+        font-size: 2rem;
+        margin-right: 14%;
+    }
+    #bar h1{
+        display: inline;
+    }
+    header{
+        display: none;
+        
+    }
+    #name1{
+        display: none;
+    }
+    #intro{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: black;
+        text-align: center;
+    }
+    #intro #pic img{
+        width: 80%;
+        margin: auto;
+        margin-top: 30%;
+        margin-left: 60%;
+    }
+    #intro #me{
+        width: 100%;
+    }
+    #me{
+        margin: 0;
+        padding: 0%;
+    }
+    #intro #me1{
+        font-size: 1.7rem;
+        padding: 0;
+        margin: 0;
+        margin-top: 5%;
+    }
+    #intro #me2{
+        padding: 0;
+        margin: 0;
+    }
+
+    #me button{
+        width: 90%;
+        margin: 10% 0;
+    }
+    .skills{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding: 2rem 0rem;
+        height: 65rem;
+    }
+    
+    #cards1 i{
+        font-size: 1rem;
+    }
+    #head{
+        font-size: 1.1rem;
+    }
+    #cards2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10%;
+    }
+    .c1{
+        width: 70%;
+        margin-bottom: 10%;
+    }
+    #icon7, #s2{
+        margin: 0;
+        padding: 0;
+    }
+    #icon7 #hobby{
+        font-size: 1.4rem;
+        margin-bottom: 15%;
+    }
+    #s2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #s2 div{
+        padding: 0;
+        padding: 0.5rem;
+        width: 90%;
+        margin-bottom: 20%
+    }
+    
+    footer div {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-top: 20%;
+    }
+    #f1,#f2,#f3{
+        width: 100%;
+    }
+    #f1 p{
+        font-size: 1.3rem;
+    }
+    #f2{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #f2 form input{
+        width: 90%;
+
+    }
+    #f2 form textarea{
+        width: 90%;
+    }
+    #f2  form button{
+        margin: 0;
+        padding: 0;
+        width: 98%;
+        margin-top: 10%;
+        padding: 0.8rem;
+    }
+    #mycontact{
+        width: 100%;
+    }
+    #mycontact button{
+        width: 98%;
+    }
+    #icons {
+        text-align: center;
+    }
+    #f3{
+        width: 100%;
+
+    }
+    #f3 p{
+        font-size: 1.2rem;
+    }
+
+    #card{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 1rem;
+    }
+    #p1 #self {
+        font-size: 1rem;
+    }
+    #p1 button{
+        width: 90%;
+    }
+    #p2{
+        display: flex;
+        flex-direction: column;
+    }
+    #p2 .skill{
+        font-size: 1rem;
+    }
+    #p2 .ski{
+        gap: 1%;
+    }
+    #card  button{
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 3%;
+    }
+    .ski p{
+        font-size: 1rem;
+    }
+    .progress{
+        width: 80%;
+    }
+    .cardss{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content #educ{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .content i{
+        display: none;
+    }
+    .image{
+        display: none;
+    }
+    .cardss1{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardss .content{
+        width: 90%;
+    }
+    #btn{
+        margin-left: 5%;
+    }
+    #btn button{
+        display: block;
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    #display{
+        display: flex;
+        flex-direction: column;
+    }
+    #connect{
+        margin: 0;
+        padding: 0;
+    }
+    #connect #outer{
+        margin: 0;
+        padding: 0;
+        text-align: center; 
+    }
+    
+    #card1 p{
+        font-size: 1.3rem;
+    }
+    #outer{
+        width: 100%;
+    }
+    #outer #more{
+        width: 100%;
+        text-align: center;
+    }
+    #more p{
+        width: 100%;
+    }
+    #connect #form2{
+        display: flex;
+        flex-direction: column;
+    }
+    #form2 input{
+        width: 80%;
+        margin-left: 5%;
+        ;
+    }
+    #form2 textarea{
+        width: 75%;
+        margin: 0;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    #form2 button{
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+    
+    
+}

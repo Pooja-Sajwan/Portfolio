@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Mukta', sans-serif;
+    background-image: url(./Images/Bg.svg);
+}
+input{
+    margin-bottom: 2%;
+}
+label{
+    font-size: 25px;
+    margin-left: 10%;
+}
+.c{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+}
+input, select, textarea{
+    border-radius: 20px;
+    border: 3px solid gold;
+    margin-left: 10%;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: red;
+    font-size: 1.5rem;
+    
+}
+button{
+    padding: 5px;
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: gold;
+    font-size: 25px;
+    font-weight: bolder;
+    border: 3px solid hotpink;
+}
+form{
+    padding-top: 1rem;
+    margin-top: 3%;
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgba(105, 200, 255, 0.37);
+    margin-bottom: 5%;
+}
+.color{
+    height: 50px;
+    width: 20%;
+}
+input:focus{
+    border: 5px solid lightgreen;
+}
+
+textarea:focus{
+    border: 5px groove lightgreen;
+}
+
+button:hover{
+    background-color: black;
+    color: lightskyblue;
+}

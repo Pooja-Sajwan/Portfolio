@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./Music_Images/pexels-vlad-bagacian-1337753.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 90% 57%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    width: 25%;
+    height: 30rem;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.702);
+    padding: 2rem;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+main img{
+    width: 80%;
+    height: 15rem;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border: 2px double rgba(106, 106, 106, 0.576);
+}
+
+main #audi_range{
+    width: 70%;
+    margin-left: 10%;
+
+}
+marquee{
+    width: 70%;
+    text-align: center;
+    margin-top: 3%;
+    
+}
+main h1 {
+    color: gold;
+    font-weight: 600;
+}
+marquee h2{
+    color: rgb(190, 176, 91);
+    font-weight: 500;
+}
+i{
+    font-size: 1.9rem;
+    color: gold;
+}
+#c1{
+    margin-top: 7%;
+    margin-bottom: 5%;
+    display: flex;
+    gap: 6%;
+    justify-content: center;
+    align-items: center;
+
+}
+#highlight{
+    text-align: center;
+    border: 5px solid gold;
+    padding: 0.6rem 0.8rem;
+    border-radius: 50px;
+    background-color: white;
+    color: gold;
+
+}
+.shuff{
+    display: inline;
+    position: relative;
+    top: 72px;
+    right: 278px;
+    margin-left: 2%;
+}
+.fa-pause{
+    display: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background: white;
+    height: 0.5rem;
+    border-radius: 10px;
+  }
+  input[type="range"]:focus {
+    outline: none;
+  }
+  
+  input[type="range"]:focus::-webkit-slider-thumb {
+    transform: scale(2);
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+   appearance: none;
+   margin-top: -5px;
+   background-color: gold;
+   /* height: 2rem;
+   width: 1rem;     */
+  }
+audio{
+    display: none;
+}
+#vol{
+    width: 80%;
+}
+#vol span{
+    color: white;
+    margin-right: 4%;
+}

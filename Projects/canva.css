@@ -1,0 +1,921 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Canva Sans,Noto Sans Variable,Noto Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+hr{
+    margin: 0;
+    height: 0.3rem;
+    margin-top: 1.5%;
+    background-color: rgba(222, 218, 218, 0.534);
+    border: none;
+}
+.fa-bars{
+    display: none;
+}
+header{
+    background-color: white;
+    padding-top: 1.5%;
+    padding-left: 1.5%;
+    padding-bottom: 2%;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    box-shadow: 1px 1px 5px grey;
+    /* border-bottom: 2px solid grey; */
+    margin-bottom: 5%;
+}
+#header_hr{
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    height: 0.2rem;
+    opacity: 0.5;
+    z-index: 1;
+}
+.design a{
+    text-decoration: none;
+    color: black;
+}
+#nav #nav1{
+    display: none;
+ } 
+
+ header .design:hover a{
+    color: black;
+ }
+#nav #design:hover #nav1{
+    width: 85%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2%;
+    position: absolute;
+    top: 65%;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    z-index: 2;
+}
+
+#nav1 div h2{
+    font-size: 1.1rem;
+    margin-top: 0;
+}
+#nav1 div li{
+    padding: 0;
+}
+#nav1 div a{
+    display: inline-block;
+    width: 95%;
+    font-size: 0.9rem;
+    color: grey;
+    padding: 0.8rem;
+    padding-left: 0;
+    border-radius: 5px;
+}
+#nav1 div ul{
+    height: 26rem;
+}
+#temp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+#temp div{
+    width: 100%;
+    height: 27rem;
+}
+#temp div h2{
+    font-size: 1rem;
+}
+#temp div p{
+    font-size: 0.8rem;
+    color: grey;
+}
+#temp img{
+    width: 95%;
+    border-radius: 10px;
+}
+#ico{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6%;
+    position: absolute;
+    left: 75%;
+
+}
+#mid_b{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 650;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.6rem 0.9rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    position: relative;
+    left: 45%;
+}
+#mid_b:hover{
+    background-color: rgb(97, 9, 180);
+}
+
+#s1{
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#s1 p,h1{
+    margin: 0;
+    text-align: center;
+}
+#s1 h1{
+    font-size: 2.5rem;
+}
+header a{
+    padding: 0.8rem;
+}
+#ico i{
+    
+    font-size: 1.2rem;
+}
+header a:hover{
+    background-color: rgba(222, 218, 218, 0.534);
+    border-radius: 10px;
+}
+#nav{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 3%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#butt button{
+    border: none;
+    background-color: rgba(222, 218, 218, 0.534);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    color: black;
+    font-weight: 700;
+}
+#butt{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 85%;
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#butt button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#up{
+    text-align: center;
+}
+#up h1{
+    font-size: 3.2rem;
+}
+#up p{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#up span{
+    font-weight: 900;
+    background: linear-gradient(blueviolet,#0bb8cf,#2696d5,blueviolet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* specifies the fill color of text characters. We use transparent to use the background value as our text fill */
+
+}
+
+#up button{
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    color: white;
+    font-weight: 700;
+}
+#up button:hover{
+    background-color: rgb(97, 9, 180);
+}
+#cards{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    gap:2%;
+}
+
+#cards h1{
+    font-size: 1rem;
+
+}
+
+#subs{
+    margin-top: 5%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#subs h2{
+    
+    font-size: 1.6rem;
+    margin: 0;
+    display: inline-block;
+    font-weight: 600;
+    
+   
+}
+
+#subs .king h2{
+    position: absolute;
+}
+#subs #perfect{
+    position: relative;
+    left: 32%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 2.7rem;
+
+}
+#subs #card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    margin-top: 2%;
+}
+#card div{
+    width: 50%;
+    border: 3px solid 
+    #eceef0;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+#card div button{
+    padding: 0.7rem;
+    font-size: 1rem;
+    width: 95%;
+    color: white;
+    font-weight: 750;
+    border-radius: 7px;
+    border: none;
+    background-color: blueviolet;
+}
+#card div #free{
+    margin-top: 10%;
+}
+
+#card div button:hover{
+    background-color: rgb(97, 9, 180);
+}
+
+#card div #contact{
+    margin-top: 3%;
+    background-color: rgba(226, 219, 219, 0.534);
+    color: black;
+}
+#card div #contact:hover{
+    background-color: rgba(208, 201, 201, 0.912);
+}
+#cards img{
+    border: 3px solid white;
+    border-radius: 2rem;
+
+}
+
+#card div svg{
+    color: #fbbe28;
+}
+#link{
+    margin: 5% 0;
+    text-align: center;
+}
+
+#s_slider{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#s_slider h1{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+#s_slider marquee{
+    transition: 2s;
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+marquee img{
+    width: 15%;
+    margin-right: 8%;
+}
+
+.cardss{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardss .content{
+    width: 40%;
+}
+
+.cardss .image{
+    width: 50%;
+}
+.cardss img{
+    width: 100%;
+}
+.content h1{
+    font-size: 2.5rem;
+
+}
+.content p{
+    font-size: 1rem;
+    color: grey;
+}
+.content button{
+    background-color: rgba(226, 219, 219, 0.534);
+    padding: 3%;
+    font-size: 1rem;
+    font-weight: 550;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2%;
+}
+a{
+    color: rgb(171, 91, 246);
+}
+a:hover{
+    color: rgb(90, 3, 172);
+}
+.content button:hover{
+    background-color: rgba(208, 201, 201, 0.912);
+}
+
+#middle{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+#middle h1{
+    font-size: 2.5rem;
+}
+#middle p{
+    position: absolute;
+    left: 20%;
+    font-size: 1.2rem;
+    width: 55%;
+    margin-top: 0;
+    color: grey;
+}
+
+#vid{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#vid #left{
+    width: 45%;
+}
+#vid #left i{
+    font-size: 1.5rem;
+    
+}
+#vid #left div{
+    display: flex;
+    position: relative;
+    margin-bottom: 5%;
+    
+}
+
+.fa-people-line,.fa-comment-dots{
+    position: relative;
+    left: -2%;
+}
+#vid #left div p{
+    padding-left: 4%;
+    margin-top: 0;
+    font-size: 1rem;
+}
+#d3 p{
+    position: relative;
+    right: 3%;
+}
+#d4 p{
+    position: relative;
+    right: 1%;
+}
+#vid #right video{
+    width: 80%;
+    padding-left: 30%;
+}
+
+#cards1 {
+    margin-top: 10%;
+}
+#cards1 div{
+    display: block;
+}
+
+#cards1 #s1{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+#cards1 #s1 p{
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+#cards1 #c1{
+    width:90%;
+    margin: auto;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+#c1 div h2{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+#c1 div p{
+    font-size: 0.8rem;
+    margin-top: 2%;
+    color: grey;
+}
+#c1 div{
+    display: inline-block;
+    width: 22.8%;
+    
+    margin-right: 1%;
+}
+#c1 div img{
+    width: 98%;
+    border-radius: 10px;
+}
+
+
+
+#last{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.highlight{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 8%;
+
+}
+
+footer li{
+    margin-bottom: 7%;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+
+}
+footer a:hover{
+    color: blueviolet;
+}
+#foot {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+    left: 3%;
+}
+footer ul{
+    margin:0;
+    padding: 0;
+    margin: 5% 0;
+    
+}
+
+#last #icons{
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+    
+
+}
+#privacy{
+    text-align: center;
+}
+#icons i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    
+}
+#last #line{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+#dd{
+    z-index: 1;
+}
+.fa-globe{
+    z-index: 2;
+    position: absolute;
+    left: 0.4%;
+    top: 13%;
+    font-size: 1.5rem;
+}
+#dd select{
+    padding: 0.8rem;
+    padding-left: 1.9rem;
+    font-size: 1rem;
+}
+
+#last_hr{
+    width: 90%;
+    margin: auto;
+    height: 0.1rem;
+}
+#mob1, #mob2{
+    display: none;
+}
+#mob_foot{
+    display: none;
+}
+
+@media(min-width:100px) and (max-width:500px){
+    body{
+        min-height: 100vh;
+        min-width: 115vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+    #nav #logo{
+        width: 85%;
+    }
+    header{
+        width: 100%;
+        box-shadow: 0.7px 1px 5px grey;
+        padding-top: 4%;
+        padding-bottom: 5%;
+    }
+    .design{
+        display: none;
+    }
+    #ico .fa-circle-question{
+        display: none;
+    }
+    #ico .fa-magnifying-glass{
+        position: relative;
+        right: 80%;
+        
+    }
+    #butt{
+        position: absolute;
+        left: 78%;
+        width: 30%;
+        display: block;
+        
+    }
+    #butt button{
+    padding: 0.8rem 1.2rem;
+    background-color: blueviolet;
+    color: white;
+    font-size: 0.8rem;
+    }
+    #butt #b2{
+        display: none;
+    }
+    #up{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        
+        overflow: hidden;
+    }
+    #up h1{
+        font-size: 1.8rem;
+    }
+    #up p{
+        font-size: 1rem;
+        color: grey;
+    }
+    
+    #up button{
+        width: 90%;
+        font-size: 0.9rem;
+        padding: 0.5rem 0.5rem;
+        
+    }
+    #cards{
+        width: 100%;
+        margin: 0;
+        margin-top: 5%;
+        gap:1.5%;
+        margin-bottom: 10%;
+        overflow: scroll;
+    }
+    #cards img{
+        border-radius: 10px;
+        width: 30%;
+    }
+    #subs{
+        margin-top: 0%;
+
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+    
+    #subs h2{
+        font-size: 1.2rem;
+        margin: 0;
+        }
+    
+    #subs .king h2{
+        position: absolute;
+    }
+    #subs #perfect{
+        position: relative;
+        left: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+    
+    }
+    #subs #card{
+        width: 100%;
+        display: block;
+        
+    }
+    #card div{
+        width: 75%;
+        margin: auto;
+        margin-bottom: 5%;
+        border: 2px solid 
+        #eceef0;
+        border-radius: 20px;
+        padding: 1rem;
+    }
+    #card p{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    
+    #card div button{
+        padding: 0.5rem;
+        font-size: 0.8rem;
+        width: 100%;
+        color: white;
+        font-weight: 750;
+        border-radius: 7px;
+        border: none;
+        margin-top: 2% ;
+        background-color: blueviolet;
+    }
+    #card div #free{
+        margin-top: 5%;
+    }
+    #card div svg{
+        color: #fbbe28;
+        width: 25px;
+        height: 25px;
+        }
+    #s_slider h1{
+        display: none;
+    }
+    
+    #s_slider #mob1{
+        display: block;
+        
+    }
+    marquee{
+        display: none;
+    }
+    #s_slider #mob1 img{
+        width: 50%;
+        position: relative;
+        left: 25%;
+        margin-bottom: 10%;
+    }
+
+    #s_slider #mob2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #s_slider #mob2 img{
+        width: 40%;
+        margin-right: 10%;
+        position: relative;
+        left: 5%;
+        margin-bottom: 10%;
+    }
+
+    .cardss {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .cardss .content{
+        width: 95%;
+        margin-bottom: 20%;
+    }
+    
+    .cardss .image{
+        width: 90%;
+    }
+    .cardss img{
+        width: 100%;
+    }
+    .content h1{
+        font-size: 1.5rem;
+        text-align: left;
+     }
+     
+    .content p{
+        font-size: 1.2rem;
+    }
+    .cardss1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .content button{
+        font-size: 1.3rem;
+        }
+        #middle{
+            width: 90%;
+            margin-left: 5%;
+            text-align: left;
+            margin-top: 5%;
+        }
+        #middle h1{
+            font-size: 2rem;
+            text-align: left;
+        }
+        #middle p{
+            width: 100%;
+            position: relative;
+            left: 0%;
+            text-align: left;
+            margin-top: 5%;
+        }
+        #vid{
+            width: 90%;
+            margin: auto;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+        #vid #left{
+            width: 90%;
+            
+        }
+
+        #vid #right video{
+            width: 100%;
+            padding-left: 0%;
+        }
+        #mid_b{
+            width: 80%;
+           position: relative;
+           left:10%;
+           padding: 0.5rem;
+           font-size: 1.3rem;
+        }
+        #cards1{
+            width: 300%;
+            overflow: scroll;
+        }
+        #cards1 #s1 h1{
+            font-size: 1.6rem;
+        }
+        #cards1 #s1 p{
+            font-size: 1rem;
+        }
+
+        #cards1 #c1{
+            overflow: hidden;
+            margin: 0;
+            margin-left: 3%;
+
+        }
+        #c1 div h2{
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+        
+        #c1 div p{
+            font-size: 0.8rem;
+            margin-top: 2%;
+            color: grey;
+        }
+        #c1 div img{
+            width: 90%;
+            border-radius: 10px;
+        }
+        #c1 div{
+            display: inline-block;
+            width: 20%;
+            height: 3%;
+            margin-right: 1%;
+        }
+        footer{
+            width: 200%;
+            margin-top: 10%;
+        }
+        #foot{
+            display: none;
+        }
+        #mob_foot{
+            display: block;
+            width: 100%;
+            margin-top: 5%;
+        }
+        #mob_foot select{
+            display: block;
+            width: 100%;
+            border: none;
+            font-size: 1.5rem;
+            font-weight: 650;
+            margin-left: 5%;
+            margin-bottom: 5%;
+        }
+        #last{
+            width: 100%;
+            margin: 0;
+            margin-top: 5%;
+            display: block;
+            
+        }
+        footer #last div{
+            display: block;
+            width: 100%;
+           } 
+        #last #dd{
+            position: relative;
+            left: 25%;
+        }
+        #dd select{
+            padding: 1rem 3rem ;
+        }
+        #dd i{
+            position: absolute;
+            top: 23%;
+            left: 3%;
+        }
+        #privacy{
+            position: relative;
+            left: -5%;
+        }
+       #last #icons{
+
+            justify-content: center;
+            position: relative;
+            left: -7%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+       
+        
+}

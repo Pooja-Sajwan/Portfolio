@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#p1{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 4%;
+  
+}
+#pp1{
+    width: 30%;
+    margin-left: 7%;
+    padding: 1.2rem;
+}
+#pp2{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5%;
+}
+#pp2 button{
+    background-color: gold;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+}
+#pp2 p{
+    font-size: 1.8rem;
+}
+#pp2 div{
+    padding: 0;
+    height: 2rem;
+    border: 1px solid white;
+}
+
+#p2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 40%;
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+#p2 ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 15%;
+    list-style-type: none;
+}
+#p2 ul a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#p2 img{
+    margin-left: 10%;
+}
+
+#front{
+    background-image: url(./host_images/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#front #prof {
+    height: 40rem;
+    padding-top: 20%;
+    background-image: linear-gradient(to top, rgba(153, 147, 147, 0.6) 0,rgba(153, 147, 147, 0.6)100%);
+    text-align: center;
+    color: white;
+}
+
+#front div h1{
+    font-size: 3rem;
+    font-weight: 550;
+}
+#front div p{
+    font-size: 1.5rem;
+    margin-top: 2%;
+}
+#front div img{
+    display: block;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#front #inp{
+    height: 5rem;
+    width: 35%;
+    margin: auto;
+    padding-top: 1.5rem;
+    background-image: linear-gradient(to top, rgba(255, 192, 203, 0.33)0, rgba(255, 192, 203, 0.33)100%);
+}
+
+#front div input,select,button{
+    padding: 1rem;
+}
+#inp button,select{
+    background-color: gold;
+    border: none;
+}
+#part {
+    display: flex;
+    align-items: center;
+}
+#part div{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4%;
+    color: white;
+    padding-bottom: 5%;
+}
+
+#part #part1{
+    background-color: black;
+}
+#part1 img{
+    width: 25%;
+}
+#part #part1 p,h1{
+    margin: 4% 15%;
+}
+
+#part button{
+    padding: 1rem 1rem;
+    width: 20%;
+    font-size: 1rem;
+    border: 1px solid white;
+}
+#part1 button{
+    background-color: black;
+    color: white;
+}
+
+#part #part2{
+    background-color: gold;
+
+}
+#part2 #com{
+    font-size: 8.7rem;
+    color: black;
+}
+#part #part2 p,h1{
+    margin: 4% 15%;
+}
+#part2 button{
+    background-color: gold;
+    color: white;
+}
+
+#feature{
+    background-image: url(./host_images/featurebg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: rgb(249, 243, 231);
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+#cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+#feature h1{
+    margin-bottom: 1%;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+#feature h4{
+    margin-bottom: 4%;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+#cards .head{
+    font-size: 1.5rem;
+    color: gold;
+    font-weight: normal;
+    margin: 5% 0;
+}
+#cards .line{
+    width: 25%;
+    border: 2px solid grey;
+    margin: auto;
+    margin-top: 4% ;
+}
+#cards p{
+    font-size: 1rem;
+}
+#review {
+    display: flex;
+    gap: 15%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#review #sec1{
+    width: 30%;
+}
+#review #sec1 h1{
+    margin: 0;
+    margin-bottom: 5%;
+}
+#sec2{
+    width: 100%;
+}
+#sec2 img{
+    margin-right: 2%;
+}
+
+#feed{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 3%;
+    height: 10.5rem;
+    margin-bottom: 7%;
+}
+
+
+#feed div{
+    background-color: rgb(237, 236, 236);
+    padding: 2rem;
+    border-radius: 5%;
+}
+
+#feed div h1{
+    margin: 0;
+    margin-top: 3%;
+    font-size: 1rem;
+}
+
+#feed div p{
+    font-size: 1rem;
+}
+
+#feed div img{
+    border-radius: 100%;
+    border: 3px solid grey;
+    margin-left: 75%;
+}
+
+#d1{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    
+}
+#dd1{
+    width: 70%;
+}
+#dd2{
+    width: 20%;
+}
+#d1 h1{
+    color: white;
+    margin-bottom: 2%;
+}
+#d1 p {
+    color: grey;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+#dd2 button{
+    background-color: gold;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#d2{
+    display: flex;
+    gap: 20%;
+    background-color: rgb(49, 49, 49);
+    align-items: center;
+    padding: 4rem;
+
+}
+#d2 h1{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+}
+#d2 ul{
+    text-align: right;
+}
+#nav{
+    width: 11%;
+}
+#d2 li{
+    list-style-type: none;
+    margin-bottom: 15%;
+    margin-top: 10%;
+}
+#d2 a{
+    display: inline-block;
+    width: 60%;
+    text-decoration: none;
+    padding-bottom: 1rem;
+    color: white;
+    border-bottom: 2px solid white;
+    font-size: 1rem;
+}
+#d3{
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    color: white;
+    padding: 1.5rem 0;
+}
+#icons{
+    margin-left:30%;
+    color: gold;
+    display: flex;
+    gap: 30%;
+}

@@ -1,0 +1,850 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+#head{
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+hr{
+    margin-top: 0;
+    height: 10px;
+    background-color: rgba(42, 40, 40, 0.988);
+    border: none;
+}
+header{
+    position: relative;
+    height: 90vh;
+    background-image: url(./Images/main.jpg);
+    
+    object-fit: cover;
+    
+}
+
+.search{
+    width: 75%;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+.search h1{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.search p{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.search input{
+    margin-left: 20%;
+    background-color: rgba(47, 47, 47, 0.329);
+    padding: 2%;
+    color: white;
+    width: 40%;
+    border-radius: 5px;
+}
+.search input::placeholder{
+    color: white;
+}
+.search button{
+    background-color: crimson;
+    width: 15%;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+header img{
+    margin-left: 10%;
+    width: 15%;
+}
+.e1svuwfo1{
+    position: absolute;
+    left: 13%;
+    margin-top: 4%;
+    color: #ffffff;
+    z-index: 3;
+}
+
+#dd{
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 6%;
+    left: 75%;
+}
+#dd select{
+    width: 55%;
+    background-color: rgba(47, 47, 47, 0.329);
+    color: white;
+    position: absolute;
+    left: 10%;
+    padding: 10px 0;
+    padding-left: 30px;
+    /* padding: 9px; */
+    border: 2px solid white;
+    border-radius: 5px;
+    z-index: 2;
+}
+#dd button{
+    font-weight: bolder;
+    background-color: crimson;
+    position: absolute;
+    left: 70%;
+    color: white;
+    padding: 8px 10px;
+    border: 3px solid crimson;
+    border-radius: 5px;
+}
+
+#con1{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    /* to place the section in center */
+    margin-top: 5%;  
+    /* overriden margin-top property */
+    margin-bottom: 5%;
+}
+
+#left h1{
+    color: white;
+    font-size: 3rem;
+}
+#con1 div{
+    width: 49%;
+}
+#left{
+    position: relative;
+}
+#left p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#right{
+    position: relative;
+}
+#right img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+#right video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+#con3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#con3 div{
+    width: 49%;
+    
+}
+#r1,#l1{
+    position: relative;
+}
+#l1 h1{
+    color: white;
+    font-size: 3rem;
+}
+#l1 p{
+    color: white;
+    font-size: 1.5rem;
+}
+#r1 img{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+#r1 video{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    width: 61%;
+    z-index: 1;
+}
+
+#con4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#con4 div{
+    width: 45%;
+}
+
+#r2 h1{
+    color: white;
+    font-size: 3rem;
+}
+
+#r2 p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#con2{
+    width: 80%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7%;
+    margin-top: 5%;
+}
+#con2 .same{
+    width: 47%;
+}
+#con2 #r {
+    color: white;
+}
+#r h1{
+    font-size: 3rem;
+}
+#r p{
+    font-size: 1.5rem;
+}
+
+
+
+#l #girl{
+    width: 95%;
+}
+#things{
+    position: absolute;
+    left: 6%;
+    top: 70%;
+    width: 28%;
+    height: 15%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border: 2px grey solid;
+    border-radius: 10px;
+    padding: 0.9rem 1.5rem;
+}
+#strange{
+    position: absolute;
+    left: 30%;
+    top: 23%;
+}
+#things #book img{
+    width: 35%;
+    
+}
+#things #download{
+    position: absolute;
+    left: 70%;
+    top: 2%;
+    width: 26%;
+}
+#things #download img{
+    width: 80%;
+}
+#things #strange h1{
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 1rem;
+}
+#things #strange h2{
+    color: #0070e9;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+#con5{
+    
+    width: 80%;
+    margin: auto;
+   
+}
+#con5 h1{
+    text-align: center;
+}
+
+#con5 h1,li{
+    color: white;
+}
+#con5 h1{
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 5%;
+}
+
+
+#ques{
+    position: relative;
+    left: 15%;
+    width: 70%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 4%;
+}
+
+#ques li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 2.5% 3%;
+    margin-bottom: 1%;
+    background-color: #2d2d2d;
+
+}
+
+
+#ques li:hover{
+    background-color: rgb(68, 67, 67);
+}
+#hr{
+    margin-top: 20%;
+}
+
+#ques #sec1{
+    background-color: black;
+}
+#sm{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+#sm p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#sm input{
+    background-color: rgba(47, 47, 47, 0.329);
+    padding: 1.5%;
+    color: white;
+    font-size: 1.5rem;
+    width: 40%;
+    border-radius: 5px;
+}
+#sm button{
+    background-color: crimson;
+    font-size: 1.5rem;
+    width: 25%;
+    color: white;
+    font-weight: bolder;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+
+    color: white;
+    position: relative;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#foot{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+footer h3{
+    color: #aaafa9;
+}
+
+#foot ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#foot li{
+    margin-bottom: 15%;
+}
+#foot a{
+    color: #aaafa9;
+}
+
+
+
+#dd3 svg{
+
+    position: absolute;
+    top: 63%;
+    left: 2%;
+    
+}
+#dd3 select{
+    width: 18%;
+    background-color: rgba(47, 47, 47, 0.329);
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    padding-left: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.ans{
+    display: none;
+}
+#con5 svg{
+    margin-top: 0;
+    position: absolute;
+    left: 95%;
+}
+#mob_foot{
+    display: none;
+}
+
+@media(min-width:100px) and (max-width:600px){
+    #head{
+        height: 150%;
+    }
+    hr{
+        margin-top: 10%;
+    }
+    header{
+        position: relative;
+        height: 150%;
+    }
+    .search{
+        width: 80%;
+    }
+    .search h1{
+        text-align: center;
+        color: white;
+        font-weight: 900;
+        font-size: 2.2rem;
+    }
+    .search p{
+        color: white;
+        margin-left: 2%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    
+    .search input{
+        display: block;
+        margin-left: 10%;
+        background-color: rgba(47, 47, 47, 0.329);
+        padding: 3%;
+        width: 70%;
+    }
+    .search button{
+        background-color: crimson;
+        width: 60%;
+        color: white;
+        font-weight: bolder;
+        font-size: 1rem;
+        padding: 2%;
+        border: none;
+        border-radius: 5px;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    header img{
+        margin-left: 0;
+        width: 40%;
+    }
+    .e1svuwfo1{
+        position: absolute;
+        left: 20%;
+        margin-top: 5.5%;
+    }
+    
+    #dd{
+        width: 25%;
+        position: absolute;
+        top: 6%;
+        left: 50%;
+    }
+    #dd select{
+        width: 60%;
+        position: absolute;
+        left: 15%;
+        padding-left: 40%;
+    }
+    #dd button{
+        width: 80%;
+        position: absolute;
+        left: 80%;
+        }
+        #con1{
+            display: block;
+            width: 80%;
+            text-align: center;
+        }
+        
+        #left h1{
+            color: white;
+            font-size: 2rem;
+        }
+        #con1 div{
+            width: 100%;
+        }
+        #left p{
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        #right img{
+            width: 80%;
+            position: relative;
+            z-index: 2;
+        
+        }
+        #right video{
+            position: absolute;
+            top: 20%;
+            left: 21%;
+            width: 58%;
+            z-index: 1;
+        }
+
+        #con3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        
+        #con3 div{
+            width: 100%;
+            
+        }
+        #r1,#l1{
+            position: relative;
+        }
+        #l1 h1{
+            color: white;
+            font-size: 2.5rem;
+        }
+        #l1 p{
+            color: white;
+            font-size: 1.2rem;
+        }
+        #r1 img{
+            position: relative;
+            width: 100%;
+            z-index: 2;
+        }
+        #r1 video{
+            position: absolute;
+            top: 10%;
+            right: 19%;
+            width: 63%;
+            z-index: 1;
+        }
+        
+        #con4{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        
+        #con4 div{
+            width: 100%;
+        }
+        
+        #r2 h1{
+            color: white;
+            font-size: 2.5rem;
+        }
+        
+        #r2 p{
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        #con4 img{
+            width: 90%;
+        }
+        #con2{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: center;
+            margin-bottom: 7%;
+            margin-top: 5%;
+        }
+        #con2 .same{
+            width: 100%;
+        }
+        #r h1{
+            font-size: 2.5rem;
+        }
+        #r p{
+            font-size: 1.2rem;
+        }
+        
+        #l{
+            position: relative;
+        }
+        
+        #l #girl{
+            width: 95%;
+        }
+        #things{
+            width: 70%;
+            position: absolute;
+            top: 83%;
+            left: 10%;
+            height: 6%;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            border: 2px grey solid;
+            border-radius: 10px;
+            padding: 0.9rem 1.5rem;
+            overflow: hidden;
+        }
+        #strange{
+            width: 80%;
+            position: absolute;
+            left: 0%;
+            top: 23%;
+        }
+        #things #book {
+            width: 20%;
+            position: absolute;
+            left: 2%;
+            top: 5%;
+        }
+        #things #book img{
+            width: 60%;
+            
+        }
+        #things #download {
+            width: 20%;
+            position: absolute;
+            left: 75%;
+        }
+        #things #download img{
+            width: 80%;
+        }
+        #things #strange h1{
+            width: 80%;
+            position: absolute;
+            left: 15%;
+            margin: 0;
+            margin-bottom: 5px;
+            color: white;
+            font-size: 1rem;
+        }
+        #things #strange h2{
+            width: 40%;
+            position: absolute;
+            left: 30%;
+            color: #0070e9;
+            margin-top: 10%;
+            font-size: 0.8rem;
+        }
+        #con5{
+    
+            width: 80%;
+            margin: auto;
+        }
+        #con5 h1,li{
+            color: white;
+        }
+        #con5 h1{
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 650;
+            margin: 0;
+            margin-top: 5%;
+        }
+        
+        
+        #ques{
+            position: relative;
+            left: 5%;
+            width: 92%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-top: 4%;
+        }
+        
+        #ques li{
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 2rem 2rem;
+            position: relative;
+            margin-bottom: 4%;
+            background-color: #2d2d2d;
+        
+        }
+        
+        #con5 svg{
+            position: absolute;
+            top: 30%;
+            left: 87%;
+        }
+        #ques li:hover{
+            background-color: rgb(68, 67, 67);
+        }
+        #hr{
+            margin-top: 65%;
+        }
+        #ques #sec1 {
+            background-color: black;
+            width: 100%;
+        }
+        #sec1 #sm{
+            text-align: center;
+            position: absolute;
+            top: 0%;
+            left: 4%;
+            width: 80%;
+            
+            margin-top: 15%;
+            margin-bottom: 5%;
+        }
+        #sec1 #sm p{
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        #sec1 #sm input{
+            background-color: rgba(47, 47, 47, 0.329);
+            padding: 0.8rem;
+            color: white;
+            margin-top: 5%;
+            font-size: 1.2rem;
+            width: 90%;
+            border-radius: 5px;
+        }
+        #sec1 #sm button{
+            background-color: crimson;
+            font-size: 1.5rem;
+            width: 80%;
+            color: white;
+            font-weight: bolder;
+            padding: 0.8rem;
+            margin-top: 7%;
+            border: none;
+            border-radius: 5px;
+        }
+        
+       
+        footer{
+        
+            color: white;
+            position: relative;
+            width: 80%;
+            margin-left: 15%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            
+        }
+        #foot{
+            display: none;
+        }
+        footer h3{
+            color: #aaafa9;
+        }
+        #mob_foot{
+            display: flex;
+            gap: 10%;
+            align-items: center;
+        }
+        #mob_foot div{
+            height: 22rem;
+        }
+        #mob_foot ul{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        
+        #mob_foot li{
+            margin-bottom: 15%;
+        }
+        #mob_foot a{
+            color: #aaafa9;
+        }
+        
+        
+        
+        #dd3 svg{
+        
+            position: absolute;
+            top: 80%;
+            left: 2%;
+            
+        }
+        #dd3 select{
+            width: 40%;
+            background-color: rgba(47, 47, 47, 0.329);
+            color: white;
+            font-size: 1.1rem;
+            padding: 10px;
+            padding-left: 40px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        
+        .ans{
+            display: none;
+        }
+        
+}
+
+
+
+
+
+

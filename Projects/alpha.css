@@ -1,0 +1,465 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(Images/banner.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: #f5f5f5;
+}
+#bar{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2%;
+}
+/* 1 rem=16px; */
+#left h1{
+ font-size: 1rem; 
+ color: rgb(255, 255, 255); 
+}
+#left h1 span{
+    font-weight: 100;
+}
+#right #cont{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+#right a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+#right button{
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 0.8rem;
+    color: white;
+    border: 2px solid rgb(167, 163, 163);
+    padding: 5px 10px;
+}
+#drop,#drop1{
+    position: relative;
+}
+#main{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 250%;
+    display: none;
+}
+#main a{
+    display: block;
+    color: rgb(109, 107, 107);
+    text-decoration: none;
+    font-size: 1rem;
+    padding-left: 12px;
+    border-bottom: 2px solid rgb(156, 154, 154);
+}
+#drop:hover #main{
+    display: block;
+}
+#main a:hover{
+    background-color: rgba(255, 139, 81, 0.775);
+    color: white;
+}
+#sub{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 101%;
+    width: 100%;
+    display: none;
+}
+#drop1:hover #sub{
+    display: block;
+}
+
+#icon{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+
+#icon div{
+    display: inline-block;
+    width: 47%;
+    text-align: center;
+    padding-top: 2rem;
+}
+#alpha{
+    text-align: center;
+    color: white;
+    margin-top:8rem;
+
+}
+#alpha h1{
+    font-size: 3.5rem;
+    font-weight:590;
+    line-height: 1rem;
+    margin-bottom: 0;
+}
+#alpha p{
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+#alpha button{
+    /* margin-top: 0.3rem; */
+    width: 13%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1.2rem;
+    background-color: white;
+    color: rgb(109, 107, 107);
+    font-size: 0.8rem;
+}
+#alpha #learn{
+   background-color: transparent;
+   color: white;
+   border: 3px groove rgb(235, 235, 235);
+}
+#intro{
+    background-color: white;
+    width: 70%;
+    /* To bring in center give width and margin auto it will come center */
+    margin: auto;
+    margin-top: 12rem;
+    border-radius: 5px;
+    color:  rgb(109, 107, 107);
+    text-align: center;
+    padding-top: 1rem; 
+}
+#intro h1{
+    font-size: 2.3rem;
+}
+#intro p{
+    font-size: 1.2rem;
+    border-top: 2px groove  rgb(109, 107, 107);
+    width: 60%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#intro img{
+    width: 100%;
+}
+#signup{
+    background-color: #e89980;
+    color: #f9e6df;
+    padding: 3.5em 0 4em 0;
+    text-align: center;
+}
+#signup h1{
+    font-size: 2.3rem;
+}
+#signup input{
+    height: 3rem;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    width: 15%;
+}
+#signup ::placeholder {
+    color: #ffffff;
+}
+#signup input:focus{
+    outline-color: #ffffff;
+}
+#signup button{
+    height: 3rem;
+    width: 8%;
+    border: none;
+    border-radius: 7px;
+    color: #e89980;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.icons .brands::before{
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 1.75rem;
+}
+footer{
+    background: #f0f0f0;
+    padding: 4rem 0 6rem 0;
+    text-align: center;
+}
+footer ul{
+    cursor: default;
+    list-style: none;
+    margin-top: 2rem;
+    padding-left: 0;
+}
+.icons li{
+    display: inline-block;
+    padding: 0 1.25rem 0 0;
+}
+footer a{
+    color: rgb(202, 200, 200);
+    text-decoration: none;
+}
+footer a:hover{
+    color: grey;
+}
+#icon{
+    margin-bottom: 3rem;
+}
+.fa-bolt-lightning{
+    background-color: #e89980;
+    padding: 1.5rem 1.8rem;
+}
+.fa-solid{
+    border-radius: 100%;
+    font-size: 2.5rem;
+}
+.fa-chart-area{
+    background-color: #7fcdb8;
+    padding: 1.5rem 1.6rem;
+
+}
+.fa-cloud{
+    background-color: #90b0ba;
+    padding: 1.5rem 1.4rem;
+}
+.fa-lock{
+    background-color: #e5cb95;
+    padding: 1.5rem 1.6rem;
+}
+#d1{
+    border-right: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+    position: relative;
+    top: 3.5px;
+    left: 6.5px;
+}
+#d4{
+    border-top: 2px solid #efefef;
+    border-left: 2px solid #efefef;
+    position: relative;
+    top: 2.5px;
+    left: 3.5px;
+}
+
+#cards{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#cards h1{
+    font-size: 2rem;
+    color: grey;
+}
+#cards img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#cards div{
+    width: 47%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+#icon #s2{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 2.5rem;
+    
+}
+#cards button{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: white;
+    border: 2px solid rgb(179, 179, 179);
+}
+#cards button:hover{
+    background-color: rgba(235, 229, 229, 0.633);
+    transition: 1s;
+}
+/* Mobile version */
+@media(max-width:500px){
+    body{
+        background-size:190%;
+        background-position-x: center;
+        /* make center along x-axis */
+        
+    }
+    #bar{
+        display: inline-block;
+        background-color: rgba(128, 128, 128, 0.456);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-top: 11px;
+        margin-left: 8px;
+        position: sticky;
+        top: 0;
+    }
+    #bar i{
+        font-size: 1rem;
+    }
+    header{
+        display: none;
+    }
+    #alpha{
+        width: 80%;
+        margin: auto;
+        margin-top:0rem;
+    }
+    #alpha h1{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    #alpha p{
+        margin-top: 3rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    #alpha button{
+        /* margin-top: 0.3rem; */
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    #intro{
+        background-color: white;
+        width: 100%;
+        /* To bring in center give width and margin auto it will come center */
+        margin: auto;
+        margin-top: 3rem;
+    }
+    #intro h1{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    #intro p{
+        font-size: 1.1rem;
+        width: 90%;
+    }
+    br{
+        display: none;
+    }
+    #signup{
+        padding: 1em 0 2em 0;
+    }
+    #signup h1{
+        font-size: 1.6rem;
+    }
+    #signup p{
+        font-size: 0.5rem;
+    }
+    #signup input{
+        
+        width: 80%;
+    }
+    #signup button{
+        height: 3rem;
+        width: 88%;
+        font-weight: 400;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    
+    .last li{
+        display: block;
+        font-size: 0.9rem;
+        margin-bottom: 1%;
+        
+    }
+    
+    footer a{
+        color: grey;
+        font-size: 0.9rem;
+    }
+    .brands{
+        color: grey;
+    }
+    #icon{
+        background-color: white;
+        width: 98%;
+        margin:0;
+        margin-top: 1.5rem;
+        border-radius: 0px;
+    }
+    
+    #icon div{
+        display: block;
+        width: 100%;
+        /* border-bottom: 2px solid #efefef; */
+        margin-top: 2rem;
+    } 
+    #icon #s2{
+        margin-left: 0;
+    }
+    #d1,#d2,#d3{
+        border-right:0;
+        border-bottom: 2px solid #efefef;
+    }
+    #d4{
+        border-top: 0;
+        border-left: 0;
+        border-bottom: 0px;
+    }
+    #cards{
+        width: 98%;
+        display: block;
+        margin: 0;
+        margin-bottom: 3rem;
+        
+    }
+    #cards h1{
+        font-size: 1.5rem;
+        color: grey;
+    }
+    #cards p{
+        font-size: 1rem;
+    }
+    #cards img{
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #cards div{
+        width: 100%;
+        border-radius: 0;
+        background-color: white;
+        padding-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    #cards button{
+        width: 90%;
+        border-color: #efefef;
+        padding: 0.5rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    #cards button:hover{
+        background-color: rgba(235, 229, 229, 0.633);
+        transition: 1s;
+    }
+}
+

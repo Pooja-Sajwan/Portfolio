@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+<project>
+<image-path>./Images/Screenshot (407).png</image-path>
+<link>./Projects/canva.html</link>
+<languages>HTML, CSS</languages>
+<name>Canva Clone</name>
+</project>
+
+<project>
+<image-path>./Images/Screenshot (411).png</image-path>
+<link>./Projects/netflix.html</link>
+<languages>HTML, CSS</languages>
+<name>Netflix Clone</name>
+</project>
+
+<project>
+<image-path>./Images/Screenshot (409).png</image-path>
+<link>./Projects/host.html</link>
+<languages>HTML, CSS</languages>
+<name>Maguwo-Host Landing Page</name>
+</project>
+
+<project>
+<image-path>./Images/Screenshot (408).png</image-path>
+<link>./Projects/green.html</link>
+<languages>HTML, CSS</languages>
+<name>Landscaper Landing Page</name>
+</project>
+
+<project>
+<image-path>./Images/Screenshot (410).png</image-path>
+<link>./Projects/music.html</link>
+<languages>HTML, CSS, Javascript</languages>
+<name>Music Player</name>
+</project>
+
+<project>
+<image-path>./Images/Screenshot (412).png</image-path>
+<link>./Projects/video.html</link>
+<languages>HTML, CSS, Javascript</languages>
+<name>Video Player</name>
+</project>
+
+<project>
+<image-path>./Images/Screenshot (413).png</image-path>
+<link>./Projects/Ecommerce2/home.html</link>
+<languages>HTML, CSS, Javascript</languages>
+<name>Ecommerce website</name>
+</project>
+
+<project>
+<image-path>./Images/Screenshot (414).png</image-path>
+<link>./Projects/alpha.html</link>
+<languages>HTML, CSS</languages>
+<name>Alpha website</name>
+</project>
+
+</portfolio>
